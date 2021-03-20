@@ -1,4 +1,30 @@
-Tiếng Việt nà
+SECTION 1: Introduction and Setup
+4. Environment Setup
+Extensions need to be install
+- Live server
+- Vetur
+- Material Icon Theme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
