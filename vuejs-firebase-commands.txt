@@ -119,3 +119,10 @@ Give slot a name if it's needed. The content inside the default slot just show u
 
 29. CHALLENGE - Reusing Components
 
+
+30. Using Teleport
+This feature is used to move some element to a different place, including being out of root element.
+Pass in CSS selector to indicate where you want to move the element to.
+So, some CSS wont work, you have to re-define them for this purpose.
+
+
