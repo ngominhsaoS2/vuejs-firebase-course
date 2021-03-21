@@ -117,5 +117,5 @@ Slots are used when you want to pass a large data or content from parent compone
 Give slot a name if it's needed. The content inside the default slot just show up when you dont pass in any content for default slot.
 
 
-
+29. CHALLENGE - Reusing Components
 
