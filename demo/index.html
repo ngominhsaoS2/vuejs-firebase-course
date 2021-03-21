@@ -26,7 +26,7 @@
 
         <div v-if="showMovie">
             <ul>
-                <li v-for="movie in movies">
+                <li v-for="movie in movies" :class="{ fav: movie.isFav}">
                     <h3>{{movie.title}}</h3>
                     <p>{{movie.director}}</p>
                 </li>

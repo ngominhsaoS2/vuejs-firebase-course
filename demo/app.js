@@ -4,8 +4,8 @@ const app = Vue.createApp({
             url: 'https://www.facebook.com/bw.shine/',
             showMovie: false,
             movies: [
-                { title: 'Justice League', director: 'Zack Snyder' },
-                { title: 'Avengers Endgame', director: 'Russo Brothers' },
+                { title: 'Justice League', director: 'Zack Snyder', isFav: true },
+                { title: 'Avengers Endgame', director: 'Russo Brothers', isFav: false },
             ]
         }
     },

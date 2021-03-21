@@ -49,7 +49,7 @@ v-bind:href="url"
 Short is just :href="url"
 
 
-
+14. Dynamic Classes
 
 
 
