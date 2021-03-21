@@ -105,10 +105,11 @@ We can pass data from parent component to child component.
 
 
 26. Emitting Custom Events
+we can emit event from child component to parent component.
 
 
-
-
+27. Click Event Modifiers
+Click event can be more details within modifiers like: @click.alt, @click.shift, @click.self.
 
 
 
