@@ -5,7 +5,8 @@ Extensions need to be install
 - Vetur
 - Material Icon Theme
 
-Section 2: Vue Basics
+
+SECTION 2: Vue Basics
 6. How to use Vue (using the CDN)
 We can use Vue in 2 different ways: as a SPA and as a standalone component in a HTML page.
 CDN: <script src="https://unpkg.com/vue@next"></script>
@@ -13,7 +14,8 @@ CDN: <script src="https://unpkg.com/vue@next"></script>
     - we can specify a specific version <script src="https://unpkg.com/vue@3.0.2"></script>
 
 
-
+7. Creating a Vue App
+We could define template on the app.js file. Another way is define right at the root div (which has id="app")
 
 
 
