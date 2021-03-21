@@ -103,3 +103,16 @@ Create global.css then import on main.js file.
 25. Passing Data with Props
 We can pass data from parent component to child component.
 
+
+26. Emitting Custom Events
+
+
+
+
+
+
+
+
+
+
+

@@ -12,7 +12,7 @@ export default {
     props: ['header', 'text', 'theme'],
     methods: {
         closeModal() {
-            
+            this.$emit('close');
         }
     }
 }
