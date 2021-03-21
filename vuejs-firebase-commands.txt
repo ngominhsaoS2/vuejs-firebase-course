@@ -100,6 +100,6 @@ You can use "scoped" on style to indicate that these styles are just applied to 
 Create global.css then import on main.js file.
 
 
-
-
+25. Passing Data with Props
+We can pass data from parent component to child component.
 

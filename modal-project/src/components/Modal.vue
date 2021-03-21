@@ -1,11 +1,22 @@
 <template>
-  <div class="backdrop">
-    <div class="modal">
-      <h1>modal header</h1>
-      <p>modal content</p>
+  <div class="backdrop" @click="closeModal">
+    <div class="modal" :class="{ sale: theme === 'sale' }">
+      <h1>{{header}}</h1>
+      <p>{{text}}</p>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+    props: ['header', 'text', 'theme'],
+    methods: {
+        closeModal() {
+            
+        }
+    }
+}
+</script>
 
 <style>
   .modal {
@@ -29,5 +40,13 @@
   }
   .modal p {
     font-style: normal;
+  }
+  /* sale styles */
+  .modal.sale {
+    background: crimson;
+    color: white;
+  }
+  .modal.sale h1 {
+    color: white;
   }
 </style>
