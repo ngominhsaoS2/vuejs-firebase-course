@@ -55,3 +55,11 @@ Short is just :href="url"
 17. Computed Properties
 Computed Property is the property that depends on other data.
 When the depended data changes, the computed property will change too.
+
+
+SECTION 3: The Vue CLI (for Bigger Projects)
+19. How to Use the Vue CLI
+Needs to have nodejs installed on your computer.
+Install VUE CLI globally: npm i -g @vue/cli
+
+vue create modal-project :to create a new project
