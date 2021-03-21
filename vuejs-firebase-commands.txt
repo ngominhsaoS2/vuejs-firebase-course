@@ -35,4 +35,21 @@ v-if and v-show might bring the same result, but they are actually different.
 There for, sometimes v-show is more effectively.
 
 
+11. Other Mouse Events
+It always has event as the first param of method.
+When you want to pass in some other params, and you also want to use the event param, you have to pass in like:
+    handleEvent($event, 5)
+
+
+
+
+
+
+
+
+
+
+
+
+
 

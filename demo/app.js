@@ -4,7 +4,9 @@ const app = Vue.createApp({
             showMovie: false,
             title: 'Justice League',
             author: 'Zack Snyder',
-            age: 45
+            age: 45,
+            x: 0,
+            y: 0
         }
     },
 
@@ -16,6 +18,17 @@ const app = Vue.createApp({
 
         toggleMovie() {
             this.showMovie = !this.showMovie;
+        },
+
+        handleEvent(e, data) {
+            if (data) {
+                console.log(e, e.type);
+            }
+        },
+
+        handleMousemove(e) {
+            this.x = e.offsetX;
+            this.y = e.offsetY;
         }
     }
 })
