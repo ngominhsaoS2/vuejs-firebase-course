@@ -5,9 +5,12 @@ Extensions need to be install
 - Vetur
 - Material Icon Theme
 
-
-
-
+Section 2: Vue Basics
+6. How to use Vue (using the CDN)
+We can use Vue in 2 different ways: as a SPA and as a standalone component in a HTML page.
+CDN: <script src="https://unpkg.com/vue@next"></script>
+    - @next means the latest version
+    - we can specify a specific version <script src="https://unpkg.com/vue@3.0.2"></script>
 
 
 
