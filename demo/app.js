@@ -1,6 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
+            url: 'https://www.facebook.com/bw.shine/',
             showMovie: false,
             movies: [
                 { title: 'Justice League', director: 'Zack Snyder' },
