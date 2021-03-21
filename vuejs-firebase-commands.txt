@@ -77,6 +77,29 @@ Every Vue components contains different parts:
 App.vue has export method, which has components property. This components property is used to register imported components.
 
 
+22. Template Refs
+Template Refs is just like query selector concept in JavaScript.
+Template Refs allows to store reference to a DOM element inside variable. Then when
+we have that reference ,we can use regular JavaScript methods and properties on it
+to do things like changing classes, style...
+
+eg:
+<input type="text" ref="name">
+handleClick() {
+    console.log(this.$refs.name);
+    this.$refs.name.classList.add('active');
+    this.$refs.name.focus();
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
