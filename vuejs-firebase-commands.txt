@@ -63,3 +63,18 @@ Needs to have nodejs installed on your computer.
 Install VUE CLI globally: npm i -g @vue/cli
 
 vue create modal-project :to create a new project
+
+
+20. New Project Walkthrough
+
+
+
+
+
+
+
+
+
+
+
+
