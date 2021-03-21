@@ -30,6 +30,12 @@ const app = Vue.createApp({
             this.x = e.offsetX;
             this.y = e.offsetY;
         }
+    },
+
+    computed: {
+        filteredMovies() {
+            return this.movies.filter((movie) => movie.isFav);
+        }
     }
 })
 

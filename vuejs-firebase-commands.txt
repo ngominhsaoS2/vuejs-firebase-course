@@ -52,5 +52,6 @@ Short is just :href="url"
 14. Dynamic Classes
 
 
-
-
+17. Computed Properties
+Computed Property is the property that depends on other data.
+When the depended data changes, the computed property will change too.
