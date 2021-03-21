@@ -132,6 +132,13 @@ vue create <project-name> :to create a Vue project from scratch.
 npm run serve :to run the project locally.
 
 
+32. Starting a New Game
+
+
+33. Component Lifecycle Hooks
+Lifecycle Diagram: https://v3.vuejs.org/guide/instance.html#lifecycle-diagram
+
+You could use whatever hook inside the component.
 
 
 
