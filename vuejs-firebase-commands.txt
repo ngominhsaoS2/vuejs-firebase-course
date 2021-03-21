@@ -95,9 +95,9 @@ handleClick() {
 23. Multiple Components
 
 
-
-
-
+24. Component Styles & Global Styles
+You can use "scoped" on style to indicate that these styles are just applied to this component only.
+Create global.css then import on main.js file.
 
 
 
