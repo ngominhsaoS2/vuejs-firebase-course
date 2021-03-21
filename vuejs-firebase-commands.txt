@@ -18,9 +18,9 @@ CDN: <script src="https://unpkg.com/vue@next"></script>
 We could define template on the app.js file. Another way is define right at the root div (which has id="app")
 
 
-
-
-
+9. Methods & Click Events
+v-on:click is a directive.
+@click is short for v-on:click.
 
 
 
