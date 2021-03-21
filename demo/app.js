@@ -2,11 +2,10 @@ const app = Vue.createApp({
     data() {
         return {
             showMovie: false,
-            title: 'Justice League',
-            author: 'Zack Snyder',
-            age: 45,
-            x: 0,
-            y: 0
+            movies: [
+                { title: 'Justice League', director: 'Zack Snyder' },
+                { title: 'Avengers Endgame', director: 'Russo Brothers' },
+            ]
         }
     },
 

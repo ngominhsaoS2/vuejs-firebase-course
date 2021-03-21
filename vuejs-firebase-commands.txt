@@ -41,7 +41,7 @@ When you want to pass in some other params, and you also want to use the event p
     handleEvent($event, 5)
 
 
-
+12. Outputting Lists (v-for)
 
 
 

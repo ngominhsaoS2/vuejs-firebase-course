@@ -22,15 +22,17 @@
 
     <div id="app">
         <div v-if="showMovie">
-            <h2>{{title}} - {{author}} - {{age}}</h2>
-            <button v-on:click="age++">Increase age</button>
-            <button v-on:click="age--">Decrease age</button>
-            <div @click="changeTitle('Avengers Endgame')">Change movie title</div>
+            <ul>
+                <li v-for="movie in movies">
+                    <h3>{{movie.title}}</h3>
+                    <p>{{movie.director}}</p>
+                </li>
+            </ul>
         </div>
 
         <button @click="toggleMovie()">
             <span v-if="showMovie">Hide movie</span>
-            <span v-else>Show movie</span>
+            <span v-else>Show movies</span>
         </button>
 
         <div v-show="showMovie">Currently showing movie</div><br />
