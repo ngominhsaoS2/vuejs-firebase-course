@@ -126,3 +126,12 @@ Pass in CSS selector to indicate where you want to move the element to.
 So, some CSS wont work, you have to re-define them for this purpose.
 
 
+SECTION 4: PROJECT BUILD - Reaction Timer
+31. Project 1 Preview & Setup
+vue create <project-name> :to create a Vue project from scratch.
+npm run serve :to run the project locally.
+
+
+
+
+
