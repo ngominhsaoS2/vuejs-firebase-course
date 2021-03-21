@@ -141,4 +141,12 @@ Lifecycle Diagram: https://v3.vuejs.org/guide/instance.html#lifecycle-diagram
 You could use whatever hook inside the component.
 
 
+34. Creating the Reaction Timer
+
+
+
+
+
+
+
 
