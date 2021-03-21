@@ -68,11 +68,13 @@ vue create modal-project :to create a new project
 20. New Project Walkthrough
 
 
+21. Vue Files & Templates
+Every Vue components contains different parts:
+- template
+- script (optional)
+- style (optional)
 
-
-
-
-
+App.vue has export method, which has components property. This components property is used to register imported components.
 
 
 
