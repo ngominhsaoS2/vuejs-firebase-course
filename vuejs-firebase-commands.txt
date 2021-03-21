@@ -112,7 +112,9 @@ we can emit event from child component to parent component.
 Click event can be more details within modifiers like: @click.alt, @click.shift, @click.self.
 
 
-
+28. Slots
+Slots are used when you want to pass a large data or content from parent component into child component.
+Give slot a name if it's needed. The content inside the default slot just show up when you dont pass in any content for default slot.
 
 
 
