@@ -23,13 +23,16 @@ v-on:click is a directive.
 @click is short for v-on:click.
 
 
+10. Conditional Rendering
+v-if
+v-else
+v-show
 
+v-if and v-show might bring the same result, but they are actually different.
+    - v-if removes the dom when v-if=false
+    - v-show just hides the dom when v-show=false, the dom still exists.
 
-
-
-
-
-
+There for, sometimes v-show is more effectively.
 
 
 

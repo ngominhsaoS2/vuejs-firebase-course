@@ -11,11 +11,19 @@
     <h1>Hello Vue :)</h1>
 
     <div id="app">
-        <h2>{{title}} - {{author}} - {{age}}</h2>
+        <div v-if="showMovie">
+            <h2>{{title}} - {{author}} - {{age}}</h2>
+            <button v-on:click="age++">Increase age</button>
+            <button v-on:click="age--">Decrease age</button>
+            <div @click="changeTitle('Avengers Endgame')">Change movie title</div>
+        </div>
 
-        <button v-on:click="age++">Increase age</button>
-        <button v-on:click="age--">Decrease age</button>
-        <div @click="changeTitle('Avengers Endgame')">Change movie title</div>
+        <button @click="toggleMovie()">
+            <span v-if="showMovie">Hide movie</span>
+            <span v-else>Show movie</span>
+        </button>
+
+        <div v-show="showMovie">Currently showing movie</div>
     </div>
 
     <script src="app.js"></script>
