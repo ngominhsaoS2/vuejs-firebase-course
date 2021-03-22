@@ -150,3 +150,22 @@ You could use whatever hook inside the component.
 36. CHALLENGE - Showing a Results Component
 
 
+37. Finishing Touches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
