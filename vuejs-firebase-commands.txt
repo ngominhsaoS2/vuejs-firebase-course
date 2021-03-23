@@ -157,7 +157,7 @@ SECTION 5: Forms & Data Binding
 38. Forms Intro & Setup
 
 
-
+39. Two-way Data Binding
 
 
 
