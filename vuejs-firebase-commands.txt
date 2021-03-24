@@ -176,3 +176,10 @@ v-for always expect for v-bind, to make the element unique from each other.
 44. Submitting the Form
 @submit will submit the form, but it also refresh the page. We dont want that refresh to happen,
 so we use @submit.prevent to avoid that from happenning.
+
+
+SECTION 6: Vue Router Basics
+45. Why Use the Vue Router?
+
+
+
