@@ -166,6 +166,6 @@ SECTION 5: Forms & Data Binding
 41. Checkboxes
 
 
-
-
+42. Keyboard Events & Modifiers
+v-for always expect for v-bind, to make the element unique from each other.
 
