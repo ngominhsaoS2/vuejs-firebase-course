@@ -189,3 +189,10 @@ Router is defined on router/index.js, and is registered o main.js file.
 
 47. Router Links
 
+
+48. Folder Structure
+components folder is used for storing reusable components.
+views folder is used for pages. We could create child folder inside views folder to group them together, make them more meaningful.
+
+
+
