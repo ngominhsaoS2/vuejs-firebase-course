@@ -206,7 +206,7 @@ props: true on index.js route file means, we accept params on the routes as prop
 51. 404 Pages & Redirects
 
 
-
-
+52. Programmatic Navigation
+$router
 
 
