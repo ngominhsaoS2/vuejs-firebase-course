@@ -213,8 +213,9 @@ $router
 53. Lazy Loading Components
 
 
-
-
-
-
+SECTION 7: Fetching Data
+54. Using JSON Server
+npm i -g json-server: Install json-server package. This package is used like replacement for real API that we call.
+Just use this package for development purpose.
+json-server --watch data/db.json :to provide the json data file that json-server will listen to its changes.
 
