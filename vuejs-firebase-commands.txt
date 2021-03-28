@@ -199,7 +199,7 @@ views folder is used for pages. We could create child folder inside views folder
 $route.params.id
 
 
-
-
+50. Dynamic Links
+props: true on index.js route file means, we accept params on the routes as props (like inputs) of the component.
 
 
