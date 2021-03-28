@@ -210,3 +210,11 @@ props: true on index.js route file means, we accept params on the routes as prop
 $router
 
 
+53. Lazy Loading Components
+
+
+
+
+
+
+
