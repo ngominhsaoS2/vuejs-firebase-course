@@ -243,7 +243,7 @@ https://google.github.io/material-design-icons/
 
 
 61. Deleting Projects
-
+Using emit to emit data from SingleProject component to Home view.
 
 
 
