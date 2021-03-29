@@ -227,5 +227,5 @@ On mounted lifecycle hook.
 56. Conditionally Showing Data
 
 
-
-
+SECTION 8: PROJECT BUILD - Simple Project Planner
+57. Project 2 Preview & Setup
