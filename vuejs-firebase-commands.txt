@@ -246,7 +246,7 @@ https://google.github.io/material-design-icons/
 Using emit to emit data from SingleProject component to Home view.
 
 
-
+62. Completing Projects
 
 
 
