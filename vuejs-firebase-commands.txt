@@ -234,4 +234,11 @@ SECTION 8: PROJECT BUILD - Simple Project Planner
 58. Home View & Data
 
 
+59. Single Project Template
+
+
+
+
+
+
 
