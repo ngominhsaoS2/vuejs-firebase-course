@@ -255,7 +255,7 @@ Using emit to emit data from SingleProject component to Home view.
 64. Adding New Projects
 
 
-
+65. Navbar Component
 
 
 
