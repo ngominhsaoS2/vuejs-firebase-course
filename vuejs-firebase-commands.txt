@@ -229,3 +229,9 @@ On mounted lifecycle hook.
 
 SECTION 8: PROJECT BUILD - Simple Project Planner
 57. Project 2 Preview & Setup
+
+
+58. Home View & Data
+
+
+
