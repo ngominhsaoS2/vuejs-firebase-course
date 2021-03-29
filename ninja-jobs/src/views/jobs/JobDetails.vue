@@ -1,7 +1,12 @@
 <template>
-  <h1>{{ job.title }}</h1>
-  <p>The Job Details id is {{ id }}</p>
-  <p>{{ job.detail }}</p>
+  <div v-if="job">
+    <h1>{{ job.title }}</h1>
+    <p>The Job Details id is {{ id }}</p>
+    <p>{{ job.details }}</p>
+  </div>
+  <div v-else>
+    <p>Loading job details...</p>
+  </div>
 </template>
 
 <script>
