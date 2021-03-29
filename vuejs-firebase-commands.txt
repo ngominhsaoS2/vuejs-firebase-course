@@ -258,4 +258,4 @@ Using emit to emit data from SingleProject component to Home view.
 65. Navbar Component
 
 
-
+66. Edit Project Route
