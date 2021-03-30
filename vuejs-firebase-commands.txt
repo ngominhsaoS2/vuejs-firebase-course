@@ -268,3 +268,13 @@ Using emit to emit data from SingleProject component to Home view.
 
 
 69. CHALLENGE - Showing Filtered Projects
+
+
+SECTION 9: The Composition API
+70. Drawbacks of the Options API
+Composition API is used for managing code better.
+
+
+
+
+
