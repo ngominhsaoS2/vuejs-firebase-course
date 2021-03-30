@@ -265,3 +265,6 @@ Using emit to emit data from SingleProject component to Home view.
 
 
 68. Creating a Filter Nav
+
+
+69. CHALLENGE - Showing Filtered Projects
