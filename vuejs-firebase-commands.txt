@@ -275,6 +275,12 @@ SECTION 9: The Composition API
 Composition API is used for managing code better.
 
 
+71. Composition API Basics
+setup() runs before all lifecycle hook methods.
+naem and age on setup() is NOT reactive.
+
+
+
 
 
 
