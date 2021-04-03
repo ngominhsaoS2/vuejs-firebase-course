@@ -284,3 +284,13 @@ name and age on setup() is NOT reactive.
 You have to return the p ref to use it.
 
 
+73. Using Refs for Reactivity
+variables on setup(), in default, they are not reactive.
+const name = ref('saonm');
+    - const means ref is a constant
+    - it does not mean the value of ref can not be changed
+    - then the name variable becomes just like reactive variable
+
+
+
+
