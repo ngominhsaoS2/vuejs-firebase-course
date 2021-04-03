@@ -302,3 +302,14 @@ const ninjaTwo = reactive({ name: 'luigi', age: 35 }) // will be reactive
 const nameTwo = reactive('luigi') // will NOT be reactive
 
 
+75. Computed Values in the Setup Function
+
+
+
+
+
+
+
+
+
+
