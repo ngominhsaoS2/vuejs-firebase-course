@@ -277,10 +277,10 @@ Composition API is used for managing code better.
 
 71. Composition API Basics
 setup() runs before all lifecycle hook methods.
-naem and age on setup() is NOT reactive.
+name and age on setup() is NOT reactive.
 
 
-
-
+72. Template Refs in the Setup Function
+You have to return the p ref to use it.
 
 
