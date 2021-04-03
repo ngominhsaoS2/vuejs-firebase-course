@@ -305,9 +305,10 @@ const nameTwo = reactive('luigi') // will NOT be reactive
 75. Computed Values in the Setup Function
 
 
-
-
-
+76. Using watch and watchEffect
+watch function will run some codes when the targeted variable changes.
+watchEffect will run when setup() runs, if you dont provide any variable to be watched.
+watchEffect will watch any values inside it.
 
 
 
