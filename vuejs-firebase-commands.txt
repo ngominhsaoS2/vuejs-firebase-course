@@ -292,5 +292,13 @@ const name = ref('saonm');
     - then the name variable becomes just like reactive variable
 
 
+74. Refs vs Reactive
+import { reactive, ref } from 'vue'
+const ninjaTwo = reactive({ name: 'luigi', age: 35 })
+    - so we have 2 variables and they are reactive
+    - when using reactive, you dont have to .value (that's the major difference between refs and reactive)
+
+const ninjaTwo = reactive({ name: 'luigi', age: 35 }) // will be reactive
+const nameTwo = reactive('luigi') // will NOT be reactive
 
 
