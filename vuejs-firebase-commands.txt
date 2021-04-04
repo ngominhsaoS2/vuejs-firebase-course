@@ -311,6 +311,8 @@ watchEffect will run when setup() runs, if you dont provide any variable to be w
 watchEffect will watch any values inside it.
 
 
+77. Using Props in the Setup Function
+No need to return the props value.
 
 
 
