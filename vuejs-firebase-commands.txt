@@ -313,6 +313,11 @@ watchEffect will watch any values inside it.
 
 77. Using Props in the Setup Function
 No need to return the props value.
+Take props as the first argument of setup()
+
+
+78. Lifecycle Hooks
+Lifecycle Hooks will have prefix "on" on setup() functions, like mounted becomes onMounted.
 
 
 
