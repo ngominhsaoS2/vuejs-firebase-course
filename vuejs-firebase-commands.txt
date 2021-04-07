@@ -320,4 +320,12 @@ Take props as the first argument of setup()
 Lifecycle Hooks will have prefix "on" on setup() functions, like mounted becomes onMounted.
 
 
+SECTION 10: Async Code (& the Composition API)
+79. Fetching Data in the Setup Function
+load() to run.
+
+
+
+
+
 
