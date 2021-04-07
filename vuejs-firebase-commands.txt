@@ -325,6 +325,9 @@ SECTION 10: Async Code (& the Composition API)
 load() to run.
 
 
+80. Reusable Composition Functions (Composables)
+Just like services concept of Angular.
+
 
 
 
