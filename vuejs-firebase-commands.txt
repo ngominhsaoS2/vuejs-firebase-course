@@ -353,3 +353,7 @@ import { useRouter } from 'vue-router' then
 const router = useRouter()
 
 
+88. Using useRoute
+
+
+
