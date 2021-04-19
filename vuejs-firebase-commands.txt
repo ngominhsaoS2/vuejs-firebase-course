@@ -347,4 +347,9 @@ Just like services concept of Angular.
 86. Routing Recap & Navbar
 
 
+87. Using useRouter
+Bacause we cant use either $ or $router on setup(), so we have to import this
+import { useRouter } from 'vue-router' then 
+const router = useRouter()
+
 
