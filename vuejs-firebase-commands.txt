@@ -344,6 +344,18 @@ Just like services concept of Angular.
 85. Future Async Lesson & Extra Styling
 
 
+86. Routing Recap & Navbar
+
+
+87. Using useRouter
+Bacause we cant use either $ or $router on setup(), so we have to import this
+import { useRouter } from 'vue-router' then 
+const router = useRouter()
+
+
+88. Using useRoute
+
+
 91. Creating a Firebase Project
 
 
@@ -353,6 +365,7 @@ npm i firebase
 
 93. Firestore Collections & Documents
 Firebase is NoSQl database.
+
 
 
 
