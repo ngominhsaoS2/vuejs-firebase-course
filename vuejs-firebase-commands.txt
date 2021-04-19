@@ -367,6 +367,9 @@ npm i firebase
 Firebase is NoSQl database.
 
 
+94. Fetching a Collection of Documents
+return { ...doc.data(), id: doc.id } 
+    - ...doc.data() part will take all properties of doc.data()
 
 
 
