@@ -351,4 +351,9 @@ Just like services concept of Angular.
 npm i firebase
 
 
+93. Firestore Collections & Documents
+Firebase is NoSQl database.
+
+
+
 
