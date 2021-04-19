@@ -345,3 +345,10 @@ Just like services concept of Angular.
 
 
 91. Creating a Firebase Project
+
+
+92. Connecting to a Firebase Project
+npm i firebase
+
+
+
