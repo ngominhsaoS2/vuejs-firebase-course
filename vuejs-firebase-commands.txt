@@ -343,3 +343,8 @@ Just like services concept of Angular.
 
 85. Future Async Lesson & Extra Styling
 
+
+86. Routing Recap & Navbar
+
+
+
