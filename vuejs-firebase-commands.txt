@@ -409,5 +409,5 @@ Needs to enable Email/Password on Firebase, Authentication menu
 https://console.firebase.google.com/project/fir-db-test-8821a/authentication/providers
 
 
-
-
+106. Creating a Signup Composable
+refs & signup outside of useSignup exported function, they don't need to be re-created every time we invoke useSignup
