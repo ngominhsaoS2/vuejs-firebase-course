@@ -22,6 +22,7 @@
 <script>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { projectFirestore } from '../firebase/config'
 
 export default {
   setup() {
@@ -48,11 +49,8 @@ export default {
             tags: tags.value
         }
 
-        await fetch('http://localhost:3000/posts', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(post)
-        })
+        const res = await projectFirestore.collection('posts').add(post)
+        //console.log(res);
 
         router.push({ name: 'Home' })
     }
@@ -106,7 +104,8 @@ export default {
     color: white;
     border: none;
     padding: 8px 16px;
-    font-size: 18px
+    font-size: 18px;
+    cursor: pointer;
   }
   .pill {
     display: inline-block;
