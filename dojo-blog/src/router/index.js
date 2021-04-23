@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Details from '../views/Details.vue'
 import Create from '../views/Create.vue'
+import RealTime from '../views/RealTime.vue'
 
 const routes = [
   {
@@ -19,6 +20,12 @@ const routes = [
     path: '/create',
     name: 'Create',
     component: Create,
+    props: true
+  },
+  {
+    path: '/realtime',
+    name: 'RealTime',
+    component: RealTime,
     props: true
   }
 ]

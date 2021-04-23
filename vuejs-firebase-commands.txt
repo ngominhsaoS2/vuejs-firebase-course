@@ -386,3 +386,10 @@ throw Error('That post does not exist') will jump into catch() block.
 
 
 99. Ordering Collections
+
+
+100. Intro to Real-Time Listeners
+Use onSnapshot instead of get().
+
+
+
