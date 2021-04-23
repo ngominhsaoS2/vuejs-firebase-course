@@ -402,3 +402,12 @@ Use onSnapshot instead of get().
 
 
 104. CHALLENGE - Switching Between Forms
+
+
+105. Firebase Authentication Setup
+Needs to enable Email/Password on Firebase, Authentication menu
+https://console.firebase.google.com/project/fir-db-test-8821a/authentication/providers
+
+
+
+
