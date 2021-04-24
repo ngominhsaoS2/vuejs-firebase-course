@@ -435,3 +435,5 @@ context.emit() to emit a Custom Events
 113. Route Guards (for Unauth Users)
 
 
+114. Waiting for Firebase Auth to Initialize
+
