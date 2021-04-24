@@ -426,6 +426,6 @@ context.emit() to emit a Custom Events
 110. Navbar Component
 
 
-
+111. Logging Users Out (Composable)
 
 
