@@ -432,6 +432,6 @@ context.emit() to emit a Custom Events
 112. Getting the Current User (Composable)
 
 
-
+113. Route Guards (for Unauth Users)
 
 
