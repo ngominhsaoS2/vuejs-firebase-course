@@ -486,3 +486,7 @@ firebase deploy
 128. Making Changes & Re-deploying
 
 
+SECTION 15: Firebase Security Rules
+129. What Are Security Rules?
+apiKey is exposed on the js files.
+
