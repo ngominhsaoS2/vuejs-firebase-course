@@ -501,3 +501,8 @@ firebase deploy --only firestore:rules :to deploy firestore rules only
 
 132. Locking the API to a Domain
 https://console.cloud.google.com/apis/credentials/key/3096e519-625c-491c-a0dc-25d70ef46356?folder=&organizationId=&project=fir-db-test-8821a
+
+
+SECTION 16: PROJECT BUILD - Muso Ninjas (& Firebase Storage)
+133. Project 4 Preview & Setup
+
