@@ -490,3 +490,7 @@ SECTION 15: Firebase Security Rules
 129. What Are Security Rules?
 apiKey is exposed on the js files.
 
+
+130. Paths & Rules Explained
+Install VS extension Firebase
+firebase deploy --only firestore:rules :to deploy firestore rules only
