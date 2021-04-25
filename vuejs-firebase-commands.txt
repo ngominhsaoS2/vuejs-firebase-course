@@ -509,3 +509,9 @@ SECTION 16: PROJECT BUILD - Muso Ninjas (& Firebase Storage)
 
 134. Global Styles & Custom Font
 
+
+135. Creating a Firebase Project
+firebase init
+then select Firestore, Hosting and Storage
+
+
