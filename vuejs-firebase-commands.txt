@@ -455,3 +455,6 @@ context.emit() to emit a Custom Events
 
 120. Formatting Dates (date-fns)
 
+
+121. CHALLENGE - Auto-Scrolling the Chat Window
+
