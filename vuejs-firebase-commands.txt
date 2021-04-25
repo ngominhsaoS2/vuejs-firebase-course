@@ -498,3 +498,6 @@ firebase deploy --only firestore:rules :to deploy firestore rules only
 
 131. Requiring Authentication
 
+
+132. Locking the API to a Domain
+https://console.cloud.google.com/apis/credentials/key/3096e519-625c-491c-a0dc-25d70ef46356?folder=&organizationId=&project=fir-db-test-8821a
