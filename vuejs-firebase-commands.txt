@@ -477,3 +477,7 @@ firebase.json :store some configurations for hosting firebase124. Testing & Next
 
 126. Building an App
 npm run build
+
+
+127. Deploying the App
+firebase deploy
