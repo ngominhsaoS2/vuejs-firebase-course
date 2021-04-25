@@ -481,3 +481,8 @@ npm run build
 
 127. Deploying the App
 firebase deploy
+
+
+128. Making Changes & Re-deploying
+
+
