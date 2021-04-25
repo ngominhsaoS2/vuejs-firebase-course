@@ -494,3 +494,7 @@ apiKey is exposed on the js files.
 130. Paths & Rules Explained
 Install VS extension Firebase
 firebase deploy --only firestore:rules :to deploy firestore rules only
+
+
+131. Requiring Authentication
+
