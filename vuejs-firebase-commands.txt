@@ -437,3 +437,5 @@ context.emit() to emit a Custom Events
 
 114. Waiting for Firebase Auth to Initialize
 
+
+115. CHALLENGE - Watching the Current User
