@@ -515,3 +515,5 @@ firebase init
 then select Firestore, Hosting and Storage
 
 
+136. Connecting to Firebase
+npm i firebase
