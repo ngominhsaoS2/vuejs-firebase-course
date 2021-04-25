@@ -466,3 +466,17 @@ context.emit() to emit a Custom Events
 
 
 124. Testing & Next Steps
+
+
+SECTION 14: Building & Deploying (Firebase Hosting)
+125. The Firebase CLI
+sudo npm install -g firebase-tools
+.firebaserc :indicate the firebase database will be used
+firebase.json :store some configurations for hosting firebase124. Testing & Next Steps
+
+
+SECTION 14: Building & Deploying (Firebase Hosting)
+125. The Firebase CLI
+sudo npm install -g firebase-tools
+.firebaserc :indicate the firebase database will be used
+firebase.json :store some configurations for hosting firebase
