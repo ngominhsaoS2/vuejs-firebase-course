@@ -449,3 +449,6 @@ context.emit() to emit a Custom Events
 
 118. Real-Time Firestore Listener (Composable)
 
+
+119. Creating the Chat Window
+
