@@ -540,3 +540,6 @@ import useSignup from '@/composables/useSignup' :using @ means start at the proj
 
 143. CHALLENGE - Conditionally Showing Links
 
+
+144. New Playlist Component
+
