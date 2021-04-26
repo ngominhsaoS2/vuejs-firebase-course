@@ -535,3 +535,4 @@ import useSignup from '@/composables/useSignup' :using @ means start at the proj
 141. Adding a Navbar Component
 
 
+142. CHALLENGE - Logging Users Out
