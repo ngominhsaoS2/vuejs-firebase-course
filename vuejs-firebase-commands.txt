@@ -543,3 +543,7 @@ import useSignup from '@/composables/useSignup' :using @ means start at the proj
 
 144. New Playlist Component
 
+
+145. Handling File Changes
+
+
