@@ -530,3 +530,8 @@ npm i firebase
 
 140. Creating a Signup View
 import useSignup from '@/composables/useSignup' :using @ means start at the project src root
+
+
+141. Adding a Navbar Component
+
+
