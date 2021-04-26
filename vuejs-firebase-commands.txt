@@ -527,3 +527,6 @@ npm i firebase
 
 139. Adding a 'pending' State to Requests
 
+
+140. Creating a Signup View
+import useSignup from '@/composables/useSignup' :using @ means start at the project src root
