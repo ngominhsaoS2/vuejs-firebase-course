@@ -553,3 +553,7 @@ Firebase Storage is a service to store files such as images, videos, media files
 
 147. Uploading Images (part 1)
 
+
+148. Uploading Images (part 2)
+
+
