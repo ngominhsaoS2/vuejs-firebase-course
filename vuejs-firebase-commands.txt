@@ -568,3 +568,6 @@ Firebase Storage is a service to store files such as images, videos, media files
 
 152. Nav Update & Route Guards
 
+
+153. Playlist Details Route
+
