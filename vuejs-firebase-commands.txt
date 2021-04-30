@@ -547,3 +547,5 @@ import useSignup from '@/composables/useSignup' :using @ means start at the proj
 145. Handling File Changes
 
 
+146. Intro to Firebase Storage
+Firebase Storage is a service to store files such as images, videos, media files.
