@@ -5,11 +5,12 @@
       <h1><router-link :to="{ name: 'Home' }">Muso Ninjas</router-link></h1>
       <div class="links">
         <div v-if="user">
-            <button @click="handleClick">Logout</button>
+          <router-link :to="{ name: 'CreatePlaylist' }">Create Playlist</router-link>
+          <button @click="handleClick">Logout</button>
         </div>
         <div v-else>
-            <router-link class="btn" :to="{ name: 'Signup' }">Signup</router-link>
-            <router-link class="btn" :to="{ name: 'Login' }">Login</router-link>
+          <router-link class="btn" :to="{ name: 'Signup' }">Signup</router-link>
+          <router-link class="btn" :to="{ name: 'Login' }">Login</router-link>
         </div>
       </div>
     </nav>
@@ -18,16 +19,16 @@
 
 <script>
 // challenge
-//   - fire a function called handleSubmit when the logout button is clicked
-//   - inside the function log the user out & then redirect to the login view
+//   - only show the logout button if we are logged in
+//   - only show the signup and login links if we are not logged in
+//   - use the getUser composable to help
+import getUser from '../composables/getUser'
 import useLogout from '../composables/useLogout'
 import { useRouter } from 'vue-router'
-import getUser from '../composables/getUser'
-
 export default {
   setup() {
-    const { logout } = useLogout()
     const { user } = getUser()
+    const { logout } = useLogout()
     const router = useRouter()
     const handleClick = async () => {
       await logout()
@@ -45,26 +46,21 @@ export default {
     margin-bottom: 60px;
     background: white;
   }
-
   nav {
     display: flex;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
   }
-
   nav img {
     max-height: 60px;
   }
-
   nav h1 {
     margin-left: 20px;
   }
-
   nav .links {
     margin-left: auto;
   }
-
   nav .links a, button {
     margin-left: 16px;
     font-size: 14px;
