@@ -571,3 +571,6 @@ Firebase Storage is a service to store files such as images, videos, media files
 
 153. Playlist Details Route
 
+
+154. Redirecting to Playlist Details
+
